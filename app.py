@@ -33,8 +33,4 @@ if st.button('Proqnoz et'):
     st.success(f"Risk Group: {risk_group}")
     st.success(f"Risk Category: {risk_cat}")
 
-    }
-    df = pd.DataFrame(data)
-    risk_group, risk_category = predict_patient(df)
-    st.write(f"Risk Group: {risk_group}")
-    st.write(f"Risk Category: {risk_category}")
+   
